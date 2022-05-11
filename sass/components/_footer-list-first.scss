@@ -1,0 +1,67 @@
+  .footer-list-first {
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    list-style-type: none;
+    color: var(--white-color);
+    
+    &__text {
+        font-size: 14px;
+        line-height: 1.714;
+        letter-spacing: 0.03em;
+        list-style-type: none;
+        color: var(--white-color);
+        margin-top: 20px;
+      }
+            &__email {
+              font-size: 14px;
+              line-height: 1.714;
+              letter-spacing: 0.03em;
+              list-style-type: none;
+              color: var(--third-color);
+
+            }
+                    &__phone {
+                       margin-bottom: 60px;
+                        list-style-type: none;
+                          }
+                                                    &__phone--link {
+                                                      font-size: 14px;
+                                                      line-height: 1.714;
+                                                      letter-spacing: 0.03em;
+                                                      list-style-type: none;
+                                                      text-decoration: none;
+                                                      color: var(--third-color);
+                                                    }
+                                                                    &__phone--link:hover {
+                                                                      color: var(--mark-color);
+                                                                    }
+                                  
+                                                                    &__phone--link:focus {
+                                                                      color: var(--mark-color);
+                                                                    }
+                         &--link {
+                           text-decoration: solid;
+                           color: var(--third-color);
+                           list-style-type: none;
+                           text-decoration: none;
+                         }
+
+                                                 &__email--link:hover {
+                                                   color: var(--mark-color);
+                                                 }
+                        
+                                                 &__email--link:focus {
+                                                   color: var(--mark-color);
+                                                 }
+  }
+    
+        
+               
+        
+      
+
+         
+
+                 
+
