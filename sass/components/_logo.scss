@@ -1,27 +1,55 @@
 .logo {
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.192;
-    letter-spacing: 0.03em;
-    font-family: var(--secondary-font);
-    text-decoration: none;
-    color: var(--mark-color);
-    margin-top: 24px;
+     font-weight: 700;
+     font-size: 26px;
+     line-height: 1.192;
+     letter-spacing: 0.03em;
+     font-family: var(--secondary-font);
+     text-decoration: none;
+     color: var(--mark-color);
+     margin-top: 24px;
     margin-right: 0;
     margin-left: 0;
-    &__span {
-            color: var(--main-color)
-        }
-                &.logo--footer {
-                    display: block;
-                    margin-top: 68px;
-                    margin-bottom: 0;
-                    color: var(--white-color);
-                }
-        
-                &__footer {
-                    color: var(--mark-color);
-                }
+    position: relative;
+    left: -39px;
+    &__span
+    {
+        color:var(--main-color)
+    }
 }
+
+
+
+
+
+
+
+
+
+
+// .logo {
+//     font-weight: 700;
+//     font-size: 26px;
+//     line-height: 1.192;
+//     letter-spacing: 0.03em;
+//     font-family: var(--secondary-font);
+//     text-decoration: none;
+//     color: var(--mark-color);
+//     margin-top: 24px;
+//     margin-right: 0;
+//     margin-left: 0;
+//     &__span {
+//             color: var(--main-color)
+//         }
+//                 &.logo--footer {
+//                     display: block;
+//                     margin-top: 68px;
+//                     margin-bottom: 0;
+//                     color: var(--white-color);
+//                 }
+        
+//                 &__footer {
+//                     color: var(--mark-color);
+//                 }
+// }
 
 

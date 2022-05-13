@@ -1,13 +1,11 @@
-.first-list-header {
+
+.first-list-header-menu {
     list-style-type: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: relative;
     &__link {
             font-weight: 500;
-            font-size: 14px;
-            line-height: 1.142;
+            font-size: 40px;
+            line-height: 1.175;
             letter-spacing: 0.02em;
             text-decoration: none;
             color: var(--main-color);
@@ -26,26 +24,34 @@
                 &__link:focus {
                     color: var(--mark-color);
                 }
+                &__item
+                {
+                    margin-bottom: 32px;
+                }
 }
-.active::after {
-    content: "";
-    height: 4px;
-    width: 53px;
-    border-radius: 2px;
-    background-color: var(--mark-color);
-    display: block;
-    position: absolute;
-    bottom: -1px;
-    right: 201px;
+// .active::after {
+//     content: "";
+//     height: 4px;
+//     width: 53px;
+//     border-radius: 2px;
+//     background-color: var(--mark-color);
+//     display: block;
+//     position: absolute;
+//     bottom: -1px;
+//     right: 201px;
+// }
+        // .active-portfolio::after {
+        //     content: "";
+        //     height: 4px;
+        //     width: 53px;
+        //     border-radius: 2px;
+        //     background-color: var(--mark-color);
+        //     display: block;
+        //     position: absolute;
+        //     bottom: -1px;
+        //     right: 99px;
+        // }
+.first-list-header
+{
+    display: none;
 }
-        .active-portfolio::after {
-            content: "";
-            height: 4px;
-            width: 53px;
-            border-radius: 2px;
-            background-color: var(--mark-color);
-            display: block;
-            position: absolute;
-            bottom: -1px;
-            right: 99px;
-        }

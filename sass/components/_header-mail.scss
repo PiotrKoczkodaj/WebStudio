@@ -1,4 +1,5 @@
-.header-mail {
+
+.header-mail-menu {
     text-decoration: none;
     color: var(--third-color);
     font-weight: 500;
@@ -8,8 +9,10 @@
     color: var(--third-color);
     margin-top: 32px;
     margin-bottom: 31px;
-    margin-right: 50px;
-    display: flex;
+    position: relative;
+    top: 204px;
+    left: 40px;
+    
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -28,3 +31,7 @@
                 }
 }
 
+.header-mail
+{
+    display: none;
+}
