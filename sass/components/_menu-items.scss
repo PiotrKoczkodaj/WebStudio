@@ -34,6 +34,10 @@
     position: relative;
     left: 410px;
     top: 19px;
+    &:hover
+    {
+        fill: var(--mark-color);
+    }
 }
 .hamburger-btn
 {
