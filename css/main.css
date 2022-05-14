@@ -862,14 +862,14 @@ ul {
   font-weight: 700;
   margin-right: 0;
   margin-top: 8px;
-  position: relative;
-  left: 457px;
+  position: absolute;
+  right: 15px;
 }
 
 .close-btn-menu__icon {
   position: relative;
   top: 2px;
-  left: -19px;
+  left: 4px;
 }
 
 .form-modal {
