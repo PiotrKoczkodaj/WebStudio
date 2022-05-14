@@ -1,12 +1,33 @@
 .first-block {
-    max-width: 1600px;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/img17.jpg");
+    
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/bg-header@1x.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center top;
+    width: 100%;
+    position: relative;
+    top: 54px; 
 }
 .first-block {
     background-color: var(--background-color);
-    height: 600px;
+    height:400px;
     padding: 200px 0 200px 0;
     text-align: center;
+    align-items: center;
+    display: flex;
 }
+
+
+// .first-block {
+//     max-width: 1600px;
+//     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/img17.jpg");
+//     background-repeat: no-repeat;
+//     background-size: cover;
+// }
+
+// .first-block {
+//     background-color: var(--background-color);
+//     height: 600px;
+//     padding: 200px 0 200px 0;
+//     text-align: center;
+// }
