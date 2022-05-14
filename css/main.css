@@ -122,6 +122,7 @@ ul {
 .first-list-header-menu {
   list-style-type: none;
   position: relative;
+  margin-top: 48px;
 }
 
 .first-list-header-menu__link {
@@ -166,8 +167,8 @@ ul {
   color: var(--third-color);
   margin-top: 32px;
   margin-bottom: 31px;
-  position: relative;
-  top: 200px;
+  position: absolute;
+  top: 391px;
   left: 40px;
   transition-property: color;
   transition-duration: 250ms;
@@ -202,9 +203,9 @@ ul {
   color: var(--third-color);
   margin-top: 32px;
   margin-bottom: 31px;
-  position: relative;
+  position: absolute;
   left: 40px;
-  top: 68px;
+  top: 332px;
   display: flex;
   transition-property: color;
   transition-duration: 250ms;
