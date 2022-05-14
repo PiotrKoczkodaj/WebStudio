@@ -1176,7 +1176,7 @@ ul {
   justify-content: center;
   list-style-type: none;
   position: absolute;
-  bottom: 100px;
+  bottom: 10px;
   left: 25px;
   flex-wrap: wrap;
 }
