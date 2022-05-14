@@ -1165,15 +1165,16 @@ ul {
 .menu-social-links {
   text-decoration: none;
   color: var(--mark-color);
+  margin-right: 20px;
 }
 
 .socials-list-menu {
   display: flex;
   justify-content: center;
   list-style-type: none;
-  position: relative;
-  bottom: -184px;
-  left: 15px;
+  position: absolute;
+  bottom: 26px;
+  left: 25px;
 }
 
 .first-block {
