@@ -1166,6 +1166,9 @@ ul {
   text-decoration: none;
   color: var(--mark-color);
   margin-right: 20px;
+  font-size: 18px;
+  line-height: 1.222;
+  letter-spacing: 0.02em;
 }
 
 .socials-list-menu {
@@ -1175,6 +1178,7 @@ ul {
   position: absolute;
   bottom: 26px;
   left: 25px;
+  flex-wrap: wrap;
 }
 
 .first-block {
