@@ -834,16 +834,15 @@ ul {
 }
 
 .modal__text {
-  height: 23px;
+  width: 89%;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
-  margin: 40px 40px 0px 40px;
   position: absolute;
-  top: -24px;
-  left: 70px;
+  top: 16px;
+  left: 10px;
 }
 
 .close-btn-menu {
@@ -886,7 +885,7 @@ ul {
 
 .form-modal {
   position: relative;
-  top: 75px;
+  top: 100px;
   right: 0px;
   margin-left: 40px;
 }
@@ -903,9 +902,9 @@ ul {
 }
 
 .form-modal__username-icon {
-  position: relative;
-  top: -19px;
-  right: 452px;
+  position: absolute;
+  top: 5px;
+  left: -3px;
   width: 18px;
   height: 18px;
   margin-left: 12px;
@@ -915,7 +914,7 @@ ul {
 }
 
 .form-modal__username-input {
-  width: 448px;
+  width: 89%;
   height: 40px;
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -950,9 +949,6 @@ ul {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.06em;
-  position: relative;
-  top: 18px;
-  left: 125px;
 }
 
 .user-phone__text {
@@ -967,7 +963,7 @@ ul {
 }
 
 .user-phone__input {
-  width: 448px;
+  width: 89%;
   height: 40px;
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -987,9 +983,9 @@ ul {
 }
 
 .user-phone__icon {
-  position: relative;
-  top: -21px;
-  right: 452px;
+  position: absolute;
+  top: 72px;
+  left: 0px;
   width: 18px;
   height: 18px;
   margin-left: 12px;
@@ -1014,7 +1010,7 @@ ul {
 }
 
 .user-email__input {
-  width: 448px;
+  width: 89%;
   height: 40px;
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -1034,9 +1030,9 @@ ul {
 }
 
 .user-email__icon {
-  position: relative;
-  top: -21px;
-  right: 452px;
+  position: absolute;
+  top: 139px;
+  left: 1px;
   width: 18px;
   height: 18px;
   margin-left: 12px;
@@ -1054,7 +1050,7 @@ ul {
 }
 
 .place-for-comment__textarea {
-  width: 448px;
+  width: 89%;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
@@ -1099,8 +1095,9 @@ ul {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--third-color);
-  position: relative;
-  right: -19px;
+  position: absolute;
+  right: 50px;
+  bottom: -74px;
 }
 
 .checkbox__text::before {

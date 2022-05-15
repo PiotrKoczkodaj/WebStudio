@@ -9,8 +9,9 @@
         line-height: 1.714;
         letter-spacing: 0.03em;
         color: var(--third-color);
-        position: relative;
-        right: -19px;
+        position: absolute;
+        right: 50px;
+        bottom: -74px;
     }
 
     &__text::before {
