@@ -1193,7 +1193,7 @@ ul {
 }
 
 .first-block {
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("./images/bg-header@1x.jpg");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/bg-header@1x.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
