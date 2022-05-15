@@ -817,8 +817,8 @@ ul {
 }
 
 .modal {
-  width: 100%;
-  height: 100%;
+  width: 94%;
+  height: 609px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1193,7 +1193,7 @@ ul {
 }
 
 .first-block {
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/bg-header@1x.jpg");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("./images/bg-header@1x.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
