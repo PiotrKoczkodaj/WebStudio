@@ -10,9 +10,8 @@
             line-height: 1.187;
             text-align: center;
             letter-spacing: 0.03em;
-            margin-left: 99px;
-            padding-bottom: 10px;
-            padding-top: 30px;
+            justify-content: center;
+            display: flex;
         }
                 &__occupation {
                     font-style: normal;
@@ -21,7 +20,7 @@
                     text-align: center;
                     letter-spacing: 0.03em;
                     color: var(--third-color);
-                    padding-bottom: 16px;
+                    padding-bottom: 28px;
                 }
 }
 
