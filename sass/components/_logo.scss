@@ -15,9 +15,22 @@
     {
         color:var(--main-color)
     }
-}
 
+    &.logo--footer
+    {
+        display: block;
+        margin-top: 60px;
+        margin-bottom: 0;
+        color: var(--white-color);
+        position: absolute;
+        left: 144px;
+    }
+         &__footer
+          {
+        color: var(--mark-color);                          
+            }
 
+        }
 
 
 
