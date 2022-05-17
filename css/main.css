@@ -89,6 +89,7 @@ img {
 
 .footer-list {
   display: flex;
+  height: 100%;
 }
 
 .backdrop {
@@ -583,9 +584,6 @@ img {
 .footer-list-socials {
   margin-right: 0;
   list-style-type: none;
-  position: relative;
-  left: 70px;
-  top: 165px;
 }
 
 .footer-list-socials__text {
@@ -646,9 +644,6 @@ img {
   list-style-type: none;
   display: flex;
   align-items: center;
-  position: relative;
-  top: 319px;
-  left: -329px;
 }
 
 .footer-list-newsletter__form {
@@ -678,9 +673,6 @@ img {
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   border-radius: 4px;
-  position: relative;
-  top: -12px;
-  left: 80px;
   margin-right: 12px;
   padding-left: 16px;
   font-size: 16px;
@@ -701,9 +693,6 @@ img {
   line-height: 1.875;
   letter-spacing: 0.06em;
   cursor: pointer;
-  position: relative;
-  left: -191px;
-  top: 79px;
   border: #2196f3;
 }
 
