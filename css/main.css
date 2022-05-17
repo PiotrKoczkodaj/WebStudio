@@ -136,11 +136,8 @@ img {
 
 .logo.logo--footer {
   display: block;
-  margin-top: 60px;
   margin-bottom: 0;
   color: var(--white-color);
-  position: absolute;
-  left: 144px;
 }
 
 .logo__footer {
@@ -479,8 +476,6 @@ img {
   margin-top: 30px;
   justify-content: center;
   position: relative;
-  right: -12px;
-  left: 5px;
 }
 
 .fourth-section-list__item {
@@ -538,9 +533,6 @@ img {
   letter-spacing: 0.03em;
   list-style-type: none;
   color: var(--white-color);
-  margin-top: 20px;
-  position: relative;
-  right: 85px;
 }
 
 .footer-list-first__email {
@@ -591,6 +583,9 @@ img {
 .footer-list-socials {
   margin-right: 0;
   list-style-type: none;
+  position: relative;
+  left: 70px;
+  top: 165px;
 }
 
 .footer-list-socials__text {
@@ -651,6 +646,9 @@ img {
   list-style-type: none;
   display: flex;
   align-items: center;
+  position: relative;
+  top: 319px;
+  left: -329px;
 }
 
 .footer-list-newsletter__form {
@@ -662,11 +660,11 @@ img {
   position: relative;
   width: 207px;
   height: 16px;
-  left: 29px;
+  left: 165px;
   top: -7px;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.142;
+  line-height: 1.171;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white-color);
@@ -682,7 +680,7 @@ img {
   border-radius: 4px;
   position: relative;
   top: -12px;
-  left: 29px;
+  left: 80px;
   margin-right: 12px;
   padding-left: 16px;
   font-size: 16px;
@@ -704,8 +702,8 @@ img {
   letter-spacing: 0.06em;
   cursor: pointer;
   position: relative;
-  left: 30px;
-  top: 6px;
+  left: -191px;
+  top: 79px;
   border: #2196f3;
 }
 
@@ -1259,7 +1257,6 @@ img {
 .fourth-section {
   padding-top: 60px;
   padding-bottom: 60px;
-  height: 519px;
 }
 
 .fourth-section .container {
@@ -1270,6 +1267,13 @@ img {
 
 .end-of-page {
   background-color: var(--background-color);
-  height: 488px;
+  padding-bottom: 416px;
+}
+
+.end-of-page .container {
+  max-width: 480px;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 500px;
 }
 /*# sourceMappingURL=main.css.map */

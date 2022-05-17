@@ -1,8 +1,14 @@
 .end-of-page 
 {
     background-color: var(--background-color);
-    height: 488px;
-
+    padding-bottom: 416px;
+        & .container
+        {
+                max-width: 480px;
+                padding: 0 15px;
+                margin: 0 auto;
+                height: 500px;
+        }
 }
 
 // .end-of-page {
