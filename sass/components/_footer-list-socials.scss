@@ -1,9 +1,10 @@
 .footer-list-socials 
 {
-    margin-right: 0;
+    position: relative;
+    top:100px;
+    left: -145px;
     list-style-type: none;
     
-
     &__text {
             color: var(--white-color);
             font-size: 14px;

@@ -137,6 +137,7 @@ img {
 
 .logo.logo--footer {
   display: block;
+  position: static;
   margin-bottom: 0;
   color: var(--white-color);
 }
@@ -526,6 +527,7 @@ img {
   letter-spacing: 0.03em;
   list-style-type: none;
   color: var(--white-color);
+  margin-left: 153px;
 }
 
 .footer-list-first__text {
@@ -582,7 +584,9 @@ img {
 }
 
 .footer-list-socials {
-  margin-right: 0;
+  position: relative;
+  top: 100px;
+  left: -145px;
   list-style-type: none;
 }
 
