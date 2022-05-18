@@ -654,8 +654,7 @@ img {
   list-style-type: none;
   display: flex;
   align-items: center;
-  position: relative;
-  top: 145px;
+  margin-top: 145px;
 }
 
 .footer-list-newsletter__form {
@@ -663,7 +662,6 @@ img {
 }
 
 .footer-list-newsletter__form--text {
-  position: relative;
   width: 207px;
   height: 16px;
   left: 0px;
@@ -690,6 +688,7 @@ img {
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: var(--white-color);
+  margin-top: 20px;
 }
 
 .footer-list-newsletter__form--button {
@@ -704,13 +703,14 @@ img {
   line-height: 1.875;
   letter-spacing: 0.06em;
   cursor: pointer;
+  margin-top: 20px;
   border: #2196f3;
 }
 
 .footer-list-newsletter__form--button-text {
   position: relative;
   top: 0;
-  left: 42px;
+  left: 0px;
 }
 
 .footer-list-newsletter__form--button-icon {
