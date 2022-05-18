@@ -127,8 +127,8 @@ img {
   margin-top: 16px;
   margin-right: 0;
   margin-left: 0;
-  position: absolute;
-  left: 15px;
+  position: relative;
+  left: -41px;
 }
 
 .logo__span {
@@ -729,6 +729,8 @@ img {
   display: flex;
   list-style-type: none;
   justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 60px;
 }
 
 .button-list__item {
@@ -769,7 +771,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
-  margin-top: 94px;
   margin-bottom: 94px;
 }
 
@@ -1188,8 +1189,8 @@ img {
   border: 0px;
   width: 40px;
   height: 40px;
-  position: absolute;
-  right: 15px;
+  position: relative;
+  right: -408px;
   top: 10px;
 }
 
@@ -1245,7 +1246,6 @@ img {
 
 .header-part {
   max-width: 480px;
-  padding-bottom: 60px;
 }
 
 .header-part .container {
