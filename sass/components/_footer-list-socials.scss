@@ -1,10 +1,11 @@
 .footer-list-socials 
 {
-    position: relative;
-    top:100px;
-    left: -145px;
+    width: 100%;
     list-style-type: none;
-    
+    margin: 0;
+    position: relative;
+    top: 60px;
+   
     &__text {
             color: var(--white-color);
             font-size: 14px;
@@ -13,14 +14,16 @@
             text-transform: uppercase;
             width: 113px;
             height: 16px;
-            margin-top: 72px;
-            margin-bottom: 20px;
+            margin-left: auto;
+            margin-right: auto;
             font-weight: 700;
+            margin-bottom: 18px;
         }
                 &__list {
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    margin-left: 0;
                 }
                                 &__list--item {
                                     list-style-type: none;

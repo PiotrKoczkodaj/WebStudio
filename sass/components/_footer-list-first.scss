@@ -4,7 +4,8 @@
     letter-spacing: 0.03em;
     list-style-type: none;
     color: var(--white-color);
-    margin-left: 153px;
+    display: flex;
+    
     
     &__text {
         font-size: 14px;
@@ -21,13 +22,13 @@
               letter-spacing: 0.03em;
               list-style-type: none;
               color: var(--third-color);
-             
+               margin-left: 29px;
 
             }
                     &__phone {
                        margin-bottom: 60px;
                         list-style-type: none;
-                       
+                        margin-left: 29px;
                           }
                                                     &__phone--link {
                                                       font-size: 14px;
