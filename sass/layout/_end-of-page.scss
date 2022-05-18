@@ -1,7 +1,7 @@
 .end-of-page 
 {
     background-color: var(--background-color);
-    padding-bottom: 416px;
+   
         & .container
         {
                 max-width: 480px;
@@ -9,6 +9,13 @@
                 margin: 0 auto;
                 height: 645px;
         }
+}
+
+.footer-list
+{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
 }
 
 // .end-of-page {

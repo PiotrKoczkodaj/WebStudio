@@ -127,8 +127,8 @@ img {
   margin-top: 16px;
   margin-right: 0;
   margin-left: 0;
-  position: relative;
-  left: -41px;
+  position: absolute;
+  top: 0px;
 }
 
 .logo__span {
@@ -528,7 +528,7 @@ img {
   letter-spacing: 0.03em;
   list-style-type: none;
   color: var(--white-color);
-  display: flex;
+  margin-top: 60px;
 }
 
 .footer-list-first__text {
@@ -591,7 +591,7 @@ img {
   list-style-type: none;
   margin: 0;
   position: relative;
-  top: 60px;
+  top: 18px;
 }
 
 .footer-list-socials__text {
@@ -652,9 +652,7 @@ img {
 
 .footer-list-newsletter {
   list-style-type: none;
-  display: flex;
-  align-items: center;
-  margin-top: 145px;
+  margin-top: 90px;
 }
 
 .footer-list-newsletter__form {
@@ -683,7 +681,6 @@ img {
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   border-radius: 4px;
-  margin-left: 5px;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
@@ -1189,8 +1186,8 @@ img {
   border: 0px;
   width: 40px;
   height: 40px;
-  position: relative;
-  right: -408px;
+  position: absolute;
+  right: 15px;
   top: 10px;
 }
 
@@ -1244,10 +1241,6 @@ img {
   display: flex;
 }
 
-.header-part {
-  max-width: 480px;
-}
-
 .header-part .container {
   max-width: 480px;
   padding: 0 15px;
@@ -1273,7 +1266,6 @@ img {
 
 .end-of-page {
   background-color: var(--background-color);
-  padding-bottom: 416px;
 }
 
 .end-of-page .container {
@@ -1281,6 +1273,12 @@ img {
   padding: 0 15px;
   margin: 0 auto;
   height: 645px;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .main-page-portfolio {
