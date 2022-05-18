@@ -41,7 +41,7 @@
                                             list-style-type: none;
                                             display: flex;
                                             margin-top: 21px;
-                                            margin-right: 159px;
+                                            margin-right: 88px;
                                             
                                     
                                             &__link {
@@ -76,9 +76,9 @@
                                             border-radius: 2px;
                                             background-color: var(--mark-color);
                                             display: block;
-                                            position: absolute;
-                                            bottom: -18px;
-                                            right: 201px;
+                                            position: relative;
+                                            top: 27px;
+                                            left: 43px;
                                         }
                                     
                                         .active-portfolio::after {
