@@ -1,7 +1,5 @@
 .header-part
 {
-
- 
  & .container{
     max-width: 480px;
     padding: 0 15px;
@@ -10,6 +8,20 @@
 }
 }
 
+@media screen and (min-width:768px)
+{
+    .header-part
+    {
+        & .container
+        {   
+                display: flex;
+                max-width: 768px;
+                margin-left: 0;
+                margin-right: 0;
+        }
+    }
+
+}
 
 
 

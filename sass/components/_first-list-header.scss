@@ -40,10 +40,9 @@
                                     .first-list-header {
                                             list-style-type: none;
                                             display: flex;
-                                            justify-content: center;
-                                            align-items: center;
-                                            position:absolute;
-                                            top: 23px;
+                                            margin-top: 21px;
+                                            margin-right: 159px;
+                                            
                                     
                                             &__link {
                                                 font-weight: 500;
@@ -93,9 +92,7 @@
                                                 bottom: -18px;
                                                 right: 201px;
                                         }
-                                                                          .first-list-header {
-                                                                              display:flex;
-                                                                          }
+                                                                          
                                   }
 // .first-list-header{
 //     list-style-type: none;
