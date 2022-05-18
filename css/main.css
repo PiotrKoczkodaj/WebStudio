@@ -705,6 +705,7 @@ img {
   cursor: pointer;
   margin-top: 20px;
   border: #2196f3;
+  margin-left: 25%;
 }
 
 .footer-list-newsletter__form--button-text {
@@ -727,7 +728,6 @@ img {
 .button-list {
   display: flex;
   list-style-type: none;
-  padding-top: 100px;
   justify-content: center;
 }
 
@@ -1232,8 +1232,6 @@ img {
   background-size: cover;
   background-position: center top;
   width: 100%;
-  position: relative;
-  top: 54px;
 }
 
 .first-block {
@@ -1247,6 +1245,14 @@ img {
 
 .header-part {
   max-width: 480px;
+  padding-bottom: 60px;
+}
+
+.header-part .container {
+  max-width: 480px;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 60px;
 }
 
 .third-section {
@@ -1274,6 +1280,10 @@ img {
   max-width: 480px;
   padding: 0 15px;
   margin: 0 auto;
-  height: 500px;
+  height: 645px;
+}
+
+.main-page-portfolio {
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */

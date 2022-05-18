@@ -1,6 +1,13 @@
 .header-part
 {
  max-width: 480px;
+ padding-bottom: 60px;
+ & .container{
+    max-width: 480px;
+    padding: 0 15px;
+    margin: 0 auto;
+    height: 60px;
+}
 }
 
 
