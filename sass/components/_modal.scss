@@ -67,6 +67,42 @@
         left: 2px;
     }
 }
+
+@media screen and(min-width:768px)
+ {
+    .modal {
+            width: 60%;
+            height: 609px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            background-color: var(--white-color);
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+                0px 1px 1px rgba(0, 0, 0, 0.14),
+                0px 2px 1px rgba(0, 0, 0, 0.2);
+            border-radius: 4px;
+            transition-property: transform, opacity;
+            transition-duration: 250ms;
+            transition-delay: 0;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transform: translate3d(-50%, -50%, 0) scale3d(1, 1, 1);
+            opacity: 1;
+    
+            &__text {
+    
+                width: 89%;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 1.15;
+                text-align: center;
+                letter-spacing: 0.03em;
+                position: absolute;
+                top: 52px;
+                left: 10px;
+            }
+        }
+ }
+        
 // .modal {
 //     width: 528px;
 //     height: 581px;

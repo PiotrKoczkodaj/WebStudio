@@ -420,6 +420,8 @@ img {
 
 .second-block-list {
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
 }
 
 .second-block-list__item {
@@ -453,6 +455,44 @@ img {
 
 .last--child {
   margin-right: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .second-block-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .second-block-list__item {
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--third-color);
+  }
+  .second-block-list__background {
+    background-color: var(--third-block-background-color);
+    width: 98%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 60px;
+    border-radius: 4px;
+  }
+  .second-block-list__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-color);
+    justify-content: flex-start;
+  }
+  .last--child {
+    margin-right: 0;
+  }
 }
 
 .second-header {
@@ -1050,6 +1090,36 @@ img {
   left: 2px;
 }
 
+@media screen and (min-width: 768px) {
+  .modal {
+    width: 60%;
+    height: 609px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: var(--white-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    transition-property: transform, opacity;
+    transition-duration: 250ms;
+    transition-delay: 0;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translate3d(-50%, -50%, 0) scale3d(1, 1, 1);
+    opacity: 1;
+  }
+  .modal__text {
+    width: 89%;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    position: absolute;
+    top: 52px;
+    left: 10px;
+  }
+}
+
 .form-modal {
   position: relative;
   top: 100px;
@@ -1394,7 +1464,12 @@ img {
 @media screen and (min-width: 768px) {
   .first-block {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/bg-header-tablet.jpg");
+    padding-bottom: 202px;
   }
+}
+
+.second-block {
+  padding-top: 1px;
 }
 
 .header-part .container {
