@@ -223,14 +223,19 @@ non sodales dui. Interdum et malesuada</p>
 <ul class="gallery-workers-list">
     <li class="gallery-workers-list__item">
 <figure>
-    
-    <img    
-            alt="uśmiechnięty mężczyzna"
-            src="images/worker1.jpg"
-            srcset="images/worker1@2.jpg 2x"
-            src=""
-            />
+    <picture>
+        <source
+          srcset="images/worker1@2.jpg 2x">
+        <img alt="uśmiechnięty mężczyzna"
+            src="images/worker1.jpg 1x"/>
+        <source
+            media="(min-width:768px)"
+            srcset="images/worker5.jpg 1x ,images/worker5@2.jpg 2x">
 
+            
+
+                        
+</picture>
  
             
 
@@ -275,9 +280,15 @@ non sodales dui. Interdum et malesuada</p>
   
 <li class="gallery-workers-list__item">
 <figure>
-    <img  alt="uśmiechnięta kobieta w marynarce" 
-            src="images/worker2.jpg"
-            srcset="images/worker2@2.jpg 2x" >
+        <picture>
+            <source srcset="images/worker2@2.jpg 2x">
+            <img alt="uśmiechnięta kobieta w marynarce" src="images/worker2.jpg 1x" />
+            <source media="(min-width:768px)" srcset="images/worker6.jpg 1x,images/worker6@2.jpg 2x">
+        
+        
+        
+        
+        </picture>
 <figcaption class="workers-figcaption">
     <b class="workers-figcaption__name">John Doe</b><br>
      <p class="workers-figcaption__occupation">Frontend Developer</p>
@@ -318,9 +329,15 @@ non sodales dui. Interdum et malesuada</p>
 
 <li class="gallery-workers-list__item">
 <figure>
-<img    alt="uśmiechnięty mężczyzna w koszuli" 
-        src="images/worker3.jpg"
-        srcset="images/worker3@2.jpg 2x">
+        <picture>
+            <source srcset="images/worker3@2.jpg 2x">
+            <img alt="uśmiechnięty mężczyzna w koszuli" src="images/worker3.jpg 1x" />
+            <source media="(min-width:768px)" srcset="images/worker7.jpg 1x,images/worker7@2.jpg 2x">
+        
+        
+        
+        
+        </picture>
 <figcaption class="workers-figcaption">
     <b class="workers-figcaption__name">John Doe</b><br>
    <p class="workers-figcaption__occupation">Marketing</p>
@@ -361,9 +378,15 @@ non sodales dui. Interdum et malesuada</p>
 
 <li class="gallery-workers-list__item">
 <figure>
-  <img  alt="uśmiechnięty mężczyzna w koszuli" 
-        src="images/worker4.jpg" 
-        srcset="images/worker4@2.jpg 2x">
+        <picture>
+            <source srcset="images/worker4@2.jpg 2x">
+            <img alt="uśmiechnięty mężczyzna w koszuli" src="images/worker4.jpg 1x" />
+            <source media="(min-width:768px)" srcset="images/worker8.jpg 1x,images/worker8@2.jpg 2x">
+        
+        
+        
+        
+        </picture>
 <figcaption class="workers-figcaption">
     <b class="workers-figcaption__name">John Doe</b><br>
     <p class="workers-figcaption__occupation">UI Designer</p>
