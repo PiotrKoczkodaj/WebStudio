@@ -32,7 +32,13 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
         display: flex;
     }
 }
-
+@media screen and(min-width:768px)
+{
+.first-block {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/bg-header-tablet.jpg");
+    padding-bottom: 202px;
+}
+}
 
 @media not all,
 screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1199px),
@@ -41,18 +47,16 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1199px
 {
    .first-block
    {
-    background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/bg-img-tablet@2.jpg 2x");
+    background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/bg-img-tablet@2.jpg");
     padding-bottom: 202px;
     }
 }
 
-@media screen and(min-width:768px)
-{
-.first-block {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/bg-header-tablet.jpg");
-    padding-bottom: 202px;
-}
-}
+
+
+
+
+
 @media screen and(min-width:1200px)
 {
 .first-block {
@@ -60,13 +64,26 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1199px
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/img17.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-    }
-
-    .first-block {
         background-color: var(--background-color);
         height: 600px;
         padding: 200px 0 200px 0;
         text-align: center;
     }
+
 }
 
+@media not all,
+screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px) and (max-width: 1600px),
+screen and (min-resolution: 192dpi) and (min-width: 1200px) and (max-width: 1600px),
+screen and (min-resolution: 2dppx) and (min-width: 1200px) and (max-width: 1600px){
+    .first-block {
+            max-width: 1600px;
+            background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/bg-desktop4@2.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: var(--background-color);
+            height: 600px;
+            padding: 200px 0 200px 0;
+            text-align: center;
+        }
+}
