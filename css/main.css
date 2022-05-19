@@ -1931,15 +1931,28 @@ img {
   background-size: cover;
   background-position: center top;
   width: 100%;
-}
-
-.first-block {
   background-color: var(--background-color);
   height: 400px;
   padding: 200px 0 200px 0;
   text-align: center;
   align-items: center;
   display: flex;
+}
+
+@media not all, screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px), screen and (min-resolution: 192dpi) and (min-width: 320px) and (max-width: 767px), screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px) {
+  .first-block {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/bg-header@2x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    background-color: var(--background-color);
+    height: 400px;
+    padding: 200px 0 200px 0;
+    text-align: center;
+    align-items: center;
+    display: flex;
+  }
 }
 
 @media screen and (min-width: 768px) {
