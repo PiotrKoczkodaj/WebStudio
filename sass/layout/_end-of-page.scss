@@ -38,6 +38,21 @@
                         flex-direction: column;
                 }
 }
-// .end-of-page {
-//     background-color: var(--background-color)
-// }
+
+@media screen and(min-width:1200px)
+{
+                .end-of-page {
+                                background-color: var(--background-color);
+                
+                                & .container {
+                                        max-width: 1200px;
+                                        padding: 0 15px;
+                                        margin: 0 auto;
+                
+                                }
+                        }
+                
+                        .footer-list {
+                                display: flex;
+                        }
+}

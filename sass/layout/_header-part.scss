@@ -25,14 +25,19 @@
 
 }
 
+@media screen and (min-width:1200px)
+{
+.header-part {
+        background-color: var(--white-color);
+        border-bottom: 1px solid #ECECEC;
+        margin: 0 auto;
+
+        & .container {
+            display: flex;
+            max-width: 1200px;
+        }
+    }
+}
 
 
 
-// .header-part {
-//     background-color: var(--white-color);
-//     border-bottom: 1px solid #ECECEC;
-//     margin: 0 auto;
-//     & .container {
-//             display: flex;
-//         }
-// }

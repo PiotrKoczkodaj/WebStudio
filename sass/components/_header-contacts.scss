@@ -5,3 +5,13 @@
     align-items: center;
     margin-top: 13px;
 }
+
+@media screen and(min-width:1200px) 
+{
+    .header-contacts {
+            display:flex;
+            flex-direction:row;
+            align-items: center;
+            margin-top: 13px;
+        }
+}
