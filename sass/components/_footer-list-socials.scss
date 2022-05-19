@@ -60,7 +60,71 @@
 }
 
 
-
+@media screen and(min-width:768px) 
+{
+    .footer-list-socials {
+            width: 100%;
+            list-style-type: none;
+            margin: 0;
+            margin-top: -175px;
+    
+            &__text {
+                color: var(--white-color);
+                font-size: 14px;
+                line-height: 1.142;
+                letter-spacing: 0.03em;
+                text-transform: uppercase;
+                width: 113px;
+                height: 16px;
+                margin-left: auto;
+                margin-right:55px;
+                font-weight: 700;
+                margin-bottom: 18px;
+            }
+    
+            &__list {
+                display: flex;
+                justify-content:flex-end;
+                align-items: center;
+                margin-left: 0;
+            }
+    
+            &__list--item {
+                list-style-type: none;
+                fill: white;
+                width: 44px;
+                height: 44px;
+                background-color: rgba(255, 255, 255, 0.1);
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right: 10px;
+                transition-property: background-color;
+                transition-duration: 250ms;
+                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                transition-delay: 0s;
+            }
+    
+            &__list--link {
+                fill: var(--white-color);
+                width: 44px;
+                height: 44px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+    
+            &__list--link:hover {
+                background-color: var(--mark-color);
+            }
+    
+            &__list--link:focus {
+                background-color: var(--mark-color);
+            }
+        }
+}
 
 
 // .footer-list-socials {
