@@ -591,6 +591,9 @@ img {
     border-radius: 0px 0px 4px 4px;
     background-color: var(--white-color);
   }
+  .last-photo {
+    margin-left: 0;
+  }
 }
 
 .workers-figcaption {
@@ -1032,7 +1035,7 @@ img {
   position: absolute;
   top: -14px;
   overflow: hidden;
-  height: 76%;
+  height: 79%;
   width: 100%;
 }
 
@@ -1621,5 +1624,16 @@ img {
 
 .main-page-portfolio {
   width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .main-page-portfolio {
+    width: 100%;
+  }
+  .main-page-portfolio .container {
+    max-width: 768px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
 }
 /*# sourceMappingURL=main.css.map */
