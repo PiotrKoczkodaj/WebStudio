@@ -576,6 +576,23 @@ img {
   background-color: var(--white-color);
 }
 
+@media screen and (min-width: 768px) {
+  .gallery-workers-list {
+    list-style-type: none;
+    margin-top: 50px;
+    padding-bottom: 94px;
+    display: grid;
+    grid-template-columns: 350px 350px;
+  }
+  .gallery-workers-list__item {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 30px;
+    border-radius: 0px 0px 4px 4px;
+    background-color: var(--white-color);
+  }
+}
+
 .workers-figcaption {
   background-color: var(--white-color);
   padding-top: 30px;
@@ -700,6 +717,51 @@ img {
 
 .first--child {
   margin-left: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .fourth-section-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: center;
+  }
+  .fourth-section-list__item {
+    list-style-type: none;
+    width: 170px;
+    height: 92px;
+    display: flex;
+    flex-basis: 0;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .fourth-section-list__link {
+    width: 210px;
+    height: 92px;
+    border: var(--icons-fill) solid 1px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    fill: var(--icons-fill);
+    transition-property: fill, border-color;
+    transition-duration: 250ms;
+    transition-delay: 0s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .fourth-section-list__link:hover {
+    border: var(--mark-color) solid 1px;
+    fill: var(--mark-color);
+  }
+  .fourth-section-list__link:focus {
+    border: var(--mark-color) solid 1px;
+    fill: var(--mark-color);
+  }
+  .first--child {
+    margin-left: 0;
+  }
 }
 
 .footer-list-first {
@@ -1505,6 +1567,18 @@ img {
   background-color: var(--third-block-background-color);
 }
 
+@media screen and (min-width: 768px) {
+  .third-section {
+    margin: 0;
+    background-color: var(--third-block-background-color);
+  }
+  .third-section .container {
+    max-width: 768px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+}
+
 .fourth-section {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -1514,6 +1588,18 @@ img {
   max-width: 480px;
   margin: 0 auto;
   padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .fourth-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .fourth-section .container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 0;
+  }
 }
 
 .end-of-page {

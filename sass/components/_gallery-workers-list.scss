@@ -13,7 +13,26 @@
             
         }
 }
-
+@media screen and (min-width:768px) 
+{
+    .gallery-workers-list {
+    
+            list-style-type: none;
+            margin-top: 50px;
+            padding-bottom: 94px;
+            display: grid;
+            grid-template-columns: 350px 350px;
+    
+            &__item {
+                margin-left: 0;
+                margin-right: 0;
+                margin-bottom: 30px;
+                border-radius: 0px 0px 4px 4px;
+                background-color: var(--white-color);
+    
+            }
+        }
+}
 // .gallery-workers-list {
 //     display: flex;
 //     list-style-type: none;
