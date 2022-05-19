@@ -1973,7 +1973,6 @@ img {
 
 @media screen and (min-width: 1200px) {
   .first-block {
-    max-width: 1600px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/img17.jpg");
     background-repeat: no-repeat;
     background-size: cover;
