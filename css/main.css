@@ -460,15 +460,17 @@ img {
 @media screen and (min-width: 768px) {
   .second-block-list {
     list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    grid-template-columns: 350px 350px;
+    display: grid;
+    padding-left: 15px;
+    padding-bottom: 60px;
   }
   .second-block-list__item {
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
     color: var(--third-color);
+    margin-right: 30px;
   }
   .second-block-list__background {
     background-color: var(--third-block-background-color);
@@ -492,6 +494,7 @@ img {
   }
   .last--child {
     margin-right: 0;
+    margin-bottom: 0;
   }
 }
 
@@ -1470,6 +1473,14 @@ img {
 
 .second-block {
   padding-top: 1px;
+}
+
+@media screen and (min-width: 768px) {
+  .second-block .container {
+    max-width: 768px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
 }
 
 .header-part .container {
