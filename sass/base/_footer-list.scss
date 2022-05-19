@@ -3,7 +3,12 @@
         margin-top: 113px;
         margin-left: -193px;
 }
-// .footer-list {
-//     display: flex;
-//     height: 100%;
-// }
+
+@media screen and(min-width:1200px)
+{
+.footer-list {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+}
+}
